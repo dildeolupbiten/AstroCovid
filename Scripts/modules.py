@@ -7,9 +7,9 @@ import tkinter as tk
 import swisseph as swe
 import matplotlib.pyplot as plt
 
+from os import listdir
 from dateutil import tz
 from numpy import array
-from os import listdir
 from pytz import timezone
 from os.path import exists
 from statistics import mean
