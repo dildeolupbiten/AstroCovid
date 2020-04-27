@@ -4,20 +4,19 @@ import os
 import csv
 import ssl
 import tkinter as tk
-import matplotlib.pyplot as plt
 import swisseph as swe
+import matplotlib.pyplot as plt
 
-from math import cos, sin, radians
 from dateutil import tz
-from pytz import timezone
 from numpy import array
 from os import listdir
+from pytz import timezone
 from os.path import exists
 from statistics import mean
+from math import cos, sin, radians
 from urllib.request import urlopen
-from matplotlib.dates import num2date
-from matplotlib.figure import Figure
 from datetime import datetime as dt
+from matplotlib.dates import num2date
 from tkinter.ttk import Treeview as Tv
 from tkinter.messagebox import showinfo
 from xlsxwriter.workbook import Workbook
